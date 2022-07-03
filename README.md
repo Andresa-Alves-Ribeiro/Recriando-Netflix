@@ -5,10 +5,13 @@
 
 ## :rocket: Tecnologias
 
--  [HTML]
--  [CSS]
--  [Javascript]
+-  HTML
+-  CSS
+-  Javascript
 
+
+## :rocket: Bibliotecas
+- JQuery
 
 ## 💻 Projeto
 
