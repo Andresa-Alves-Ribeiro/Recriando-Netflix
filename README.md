@@ -9,4 +9,9 @@
 -  [CSS]
 -  [Javascript]
 
-Este repositório contém a atividade prática "Recriando a Interface da Netflix", que faz parte das aulas que participei do Bootcamp da Digital Innovation One como objetivo de aprendizagem treinar as skills perante o uso de HTML, Javascript e CSS.
+
+## 💻 Projeto
+
+Projeto desenvolvido durante o bootcamp Inter Frontend, da Digital Innovation One. O objetivo desse projeto foi aprender como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar elementos com Flexbox e como utilizar plugins jQuery.
+
+Você pode acessar o projeto através [desse link](https://recriando-netflix-sand.vercel.app/).
