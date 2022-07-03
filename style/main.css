@@ -1,0 +1,278 @@
+:root{
+    --white: rgba(238, 238, 238, 1);
+    --whitetransp: rgba(238, 238, 238, 0.95);
+    --red: rgba(229, 9, 20, 1);
+    --redtransp: rgba(229, 9, 20, 0.1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*elementos base*/
+body{
+    background: var(--preta);
+    color: white;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/capasherlock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+
+header .container{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:rgb(196, 196, 196);
+    margin-right: 0px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: left;
+    justify-content: left;
+    align-items: left;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+.titulo{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 0px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color:white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 30px;
+}
+
+.filme-principal .container{
+    width: 80%;
+    margin-left: 0px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.filmes-titulo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    animation-iteration-count: infinite;
+}
+
+.series-titulo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.documentarios-titulo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+#logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: var(--red);
+  }
+  
+  #hamburger {
+    display: none;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .enable {
+    display: none;
+  }
+  
+  .nav-flex {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .nav-flex li {
+    list-style: none;
+    color: var(--white);
+  }
+  
+  header a {
+    color: inherit;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  header a:active {
+    color: var(--red);
+  }
+  
+  .info-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+  }
+  
+  .info-genre {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .info-genre p {
+    background-color: #181818;
+    color: var(--red);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 0 8px;
+  }
+  
+  .stars-duration {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  .stars {
+    display: flex;
+  }
+  
+  .stars-svg {
+    width: 20;
+    height: 20;
+  }
+  
+  .duration {
+    display: flex;
+    font-size: 14px;
+    color: var(--white);
+    margin-left: 20px;
+  }
+  
+  .duration p {
+    margin-left: 7px;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 65px;
+    margin-bottom: 60px;
+    background-color: var(--red);
+    border: none;
+    border-radius: 4px;
+    color: var(--white);
+    cursor: pointer;
+  }
+  
+  button p {
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    outline: 1px solid var(--white);
+  }
+
+  footer {
+    height: 80px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    margin: auto;
+  }
+  
+  footer a {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: var(--red);
+  }
