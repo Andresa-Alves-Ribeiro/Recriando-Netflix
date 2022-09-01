@@ -12,9 +12,14 @@
 
 ## :rocket: Bibliotecas
 - JQuery
+- Carousel
 
 ## 💻 Projeto
 
 Projeto desenvolvido durante o bootcamp Inter Frontend, da Digital Innovation One. O objetivo desse projeto foi aprender como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar elementos com Flexbox e como utilizar plugins jQuery.
 
-Você pode acessar o projeto através [desse link](https://recriando-netflix-sand.vercel.app/).
+## 🖥️ Como visualizar meu projeto?
+
+Você pode acessar o link abaixo e visualizar o deploy:
+
+https://recriando-netflix-sand.vercel.app/
